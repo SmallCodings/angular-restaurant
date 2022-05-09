@@ -9,6 +9,7 @@ import { HomeComponent } from './content/home/home.component';
 import { MenuComponent } from './content/menu/menu.component';
 import { AboutComponent } from './content/about/about.component';
 import { ContactComponent } from './content/contact/contact.component';
+import { AppRoutingModule } from './app-routing-module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactComponent } from './content/contact/contact.component';
     ContactComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
