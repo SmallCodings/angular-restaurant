@@ -7,6 +7,9 @@
   background-position: center;
 }
 
+#content-wrap {
+  background-image: url('../assets/img/body-background.jpg');
+}
 
 #content-wrap-bg {
   background-color: rgba(250, 250, 250, 0.5);
